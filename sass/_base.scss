@@ -1,0 +1,10 @@
+@use "variables";
+@use "helpers";
+
+body {
+  font-family: variables.$font-stack-serif;
+}
+
+h1 {
+  @include helpers.palt();
+}
